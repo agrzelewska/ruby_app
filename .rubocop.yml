@@ -1,0 +1,5 @@
+AllCops:
+  RubyInterpreters:
+    - ruby
+Style/FrozenStringLiteralComment:
+  Enabled: false
