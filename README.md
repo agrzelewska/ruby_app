@@ -40,7 +40,7 @@ $ git clone git@github.com:agrzelewska/ruby_app.git
 $ cd ruby_app
 $ gem install bundler
 $ bundle install
-$ ruby parser.rb
+$ ruby parser.rb werserver.log
 ```
 
 To test app:

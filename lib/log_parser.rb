@@ -2,7 +2,7 @@ require 'byebug'
 
 class LogParser
   def initialize(file)
-    @data = IO.readlines(file)
+    @data = File.readlines(file)
   end
 
   def call

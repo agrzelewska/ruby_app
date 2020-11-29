@@ -1,5 +1,7 @@
 require_relative 'lib/printer'
 
-Printer.new('webserver.log').call
+filename = ARGV.first
 
-Printer.new('webserver.log', unique: true).call
+Printer.new(filename).call
+
+Printer.new(filename, unique: true).call

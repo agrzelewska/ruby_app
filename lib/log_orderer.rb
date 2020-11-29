@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'byebug'
 require_relative 'log_counter'
 
