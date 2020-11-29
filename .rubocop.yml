@@ -2,6 +2,8 @@ AllCops:
   TargetRubyVersion: 2.6.6
   RubyInterpreters:
     - ruby
+Metrics/BlockLength:
+  Max: 35
 Style/Documentation:
   Enabled: false
 Style/FrozenStringLiteralComment:
